@@ -1,0 +1,19 @@
+{
+    "name": "mattias/dentist2022",
+    "description": "proyecto porgramacion 3",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mattias\\Dentist2022\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mattias",
+            "email": "duartemattias3@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
