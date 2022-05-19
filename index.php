@@ -1,10 +1,8 @@
 <?php
     require_once ("vendor/autoload.php");
-    echo "creando objeto";
-
+    echo "Creando objeto ---> ";
     $mysql = new Mattias\Dentist2022\Mysql();
-    $mysql->getConexion();
-    var_dump($mysql);
+    $con = $mysql->getConexion();
+    var_dump($con);
 
 ?>
-<h1>Hola Mundo</h1>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Administrador Paciente</title>
+</head>
+
+<body>
+
+    <section class="form section container pt-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2>Administra tus Pacientes!</h2>
+                <form action="" method="POST">
+                    <div class="mb-3">
+                        <label for="nomCat" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nomCat" id="nomCat" aria-describedby="helpId"
+                            placeholder="Nombre de la categoria" require>
+                        <small id="helpId" class="form-text text-muted">Help text</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="imgCat" class="form-label">Imagen de Categoria</label>
+                        <input type="file" class="form-control" name="imgCat" id="imgCat" placeholder="Imagen"
+                            aria-describedby="fileHelpId" require>
+                        <small id="fileHelpId" class="form-text text-muted">Help text</small>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <input type="submit" value="Guardar" class="btn btn-primary" name="btn" id="btn">
+                </form>
+            </div>
+
+            <div class="col-12 col-md-6">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
