@@ -11,7 +11,6 @@ class Mysql implements Db{
             $c->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         }catch (\Exception $e){
             echo 'Error: en la db'.$e->getMessage();
-
         }
         return $c;
         

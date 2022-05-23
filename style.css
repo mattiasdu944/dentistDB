@@ -1,0 +1,71 @@
+p{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-group{
+    display: flex;
+    gap: 2rem;
+}
+
+form{
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+.card_paciente{
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+.card_container{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+
+}
+
+.card_data{
+    display: flex;
+    gap: .5rem;
+    justify-content: start;
+    align-items: center;
+} 
+
+
+.img_card img{
+    width: 60px;
+    border-radius: 10rem;
+}
+
+
+
+/* .img_card img{
+    width: 50px;
+    border-radius: 70%;
+}
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+*/

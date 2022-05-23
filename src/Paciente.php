@@ -20,6 +20,16 @@ class Paciente{
          echo "jej ", $this->nombre;
          return $sentecia->execute();
      }
+    // LISTAR O MOSTRAR ELEMENTOS DE LA BD
+    public static function listar(Db $db)
+    {
+        $c = $db->getConexion();
+        $sql = "SELECT * FROM citas";
+        $sentencia = $c->prepare($sql);
+        $sentencia->execute();
+        $sentencia->setFetchMode(\PDO::FETCH_CLASS|\PDO::FETCH_PROPS_LATE,'Mattias\Dentist2022\Paciente',array(null,null));
+        return $sentencia->fetchAll();
+    }
 
     /**
      * Get the value of nombre
